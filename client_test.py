@@ -34,7 +34,7 @@ def connect_database():
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Lamloanhiepanh1996@",
+            password="************",
             database="chat_app")
         if db.is_connected():
             return db
